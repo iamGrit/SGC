@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.gritlab.test2.ui.landinghome.LandingHomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_landing_home" />
+
+    <fragment
+        android:id="@+id/nav_sgc_ikorodu"
+        android:name="com.gritlab.test2.ui.sgcikorodu.SgcIkoroduFragment"
+        android:label="@string/menu_sgc_ikorodu"
+        tools:layout="@layout/fragment_sgc_ikorodu" />
+
+    <fragment
+        android:id="@+id/nav_suv"
+        android:name="com.gritlab.test2.ui.suv.suvFragment"
+        android:label="@string/menu_conferencing"
+        tools:layout="@layout/fragment_suv" />
+
+    <fragment
+        android:id="@+id/nav_conferencing"
+        android:name="com.gritlab.test2.ui.conferencing.ConferencingFragment"
+        android:label="@string/menu_sgc_undergraduate_vortex"
+        tools:layout="@layout/fragment_conferencing" />
+
+</navigation>

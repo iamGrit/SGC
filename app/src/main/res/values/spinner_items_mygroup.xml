@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_groups">
+        <item>Physical Sciences</item>
+        <item>Life Sciences</item>
+        <item>Economics</item>
+        <item>Humanities</item>
+        <item>Political Sciences</item>
+    </string-array>
+
+</resources>

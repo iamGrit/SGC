@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.gritlab.test2.ui.landinghome.LandingHomeFragment"
+        android:label="@string/string_overview"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_issues1"
+        android:name="com.gritlab.test2.ui.gallery.GalleryFragment"
+        android:label="@string/string_the_economics"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_issues2"
+        android:name="com.gritlab.test2.ui.slideshow.SlideshowFragment"
+        android:label="@string/string_thinking_laterally"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_issues3"
+        android:name="com.gritlab.test2.ui.tools.ToolsFragment"
+        android:label="@string/string_the_economics"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_issues4"
+        android:name="com.gritlab.test2.ui.share.ShareFragment"
+        android:label="@string/string_overview"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_issues5"
+        android:name="com.gritlab.test2.ui.send.SendFragment"
+        android:label="@string/string_thinking_laterally"
+        tools:layout="@layout/fragment_send" />
+</navigation>

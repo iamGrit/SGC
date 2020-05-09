@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/menu_home" />
+
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_issues1"
+                    android:title="@string/menu_issue1" />
+                <item
+                    android:id="@+id/nav_issues2"
+                    android:title="@string/menu_issue2" />
+                <item
+                    android:id="@+id/nav_issues3"
+                    android:title="@string/menu_issue3" />
+                <item
+                    android:id="@+id/nav_issues4"
+                    android:title="@string/menu_issue4" />
+                <item
+                    android:id="@+id/nav_issues5"
+                    android:title="@string/menu_issue5" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_sgc_ikorodu"
+                android:icon="@drawable/ic_lodge_black_24dp"
+                android:title="SGC Ikorodu" />
+            <item
+                android:id="@+id/nav_suv"
+                android:icon="@drawable/ic_suv_black_24dp"
+                android:title="SGC Undergraduate Vortex" />
+        </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_conferencing"
+                android:icon="@drawable/ic_conferencing_black_24dp"
+                android:title="Conferencing" />
+        </menu>
+    </item>
+
+</menu>

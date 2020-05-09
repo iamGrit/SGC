@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">test2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Earl mb</string>
+    <string name="nav_header_subtitle">Commnunity Leader</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_sgc_ikorodu">SGC Ikorodu</string>
+    <string name="menu_sgc_undergraduate_vortex">SGC Undergraduate Vortex</string>
+
+    <string name="menu_conferencing">Conferencing</string>
+
+    <string name="welcome_text">Welcome to the Successors Generation App. We believe that succession should not happen my mere chronological consequences but deliberately, intelligently and responsibly. Join us and be deliberate.</string>
+    <string name="string_ikorodu">The Lodge, as it is fondly called is the rallying point of the entire movement. It is especially home to the our Leader and Father (Baba, as he is fondly called). Here, you can keep up with their activities.</string>
+    <string name="title_activity_suv">SuvActivity</string>
+    <string name="menu_issue1">Issues 1</string>
+    <string name="menu_issue2">Issues 2</string>
+    <string name="menu_issue3">Issues 3</string>
+    <string name="menu_issue5">Issues 5</string>
+    <string name="menu_issue4">Issues 4</string>
+    <string name="string_physical_sciences">Physical Sciences</string>
+    <string name="string_life_sciences">Life Sciences</string>
+    <string name="string_the_economics">The Economics</string>
+    <string name="string_thinking_laterally">Thinking Laterally</string>
+    <string name="string_overview">Overview</string>
+
+    <string name="conversation_place_holder">Conversation will be here</string>
+    <string name="nonsense">snkdsdkv</string>
+
+</resources>
